@@ -1,0 +1,66 @@
+#image {
+    background-image: url("assets/images/Game-of-Thrones-Iron-throne.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: fixed;
+    height: 100px;
+    opacity: 0.5;
+}
+
+
+body {
+    background-color: black;
+    padding-top: 20px;
+    font-family: Courier New, Courier, monospace;
+    color: white;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
+    background-size: cover;
+    height: 100%;
+}
+.container { 
+    text-align: center;
+    
+}
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 0;
+}
+#youdie, #youwin{ 
+    display: block;
+    margin: 0 auto;
+}
+
+#title-image {
+    text-align: center;
+    padding-left: 20px;
+    position: fixed;
+    right: 390px;
+}
+
+#got-image {
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    right: 410px;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#pressKeyTryAgain, 
+#youdie, 
+#youwin { display: none;}
+.gameplay-column {
+    padding-top: 200px;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    font-family: 'Cinzel', serif;
+}
+
+#footer-image {
+    position: fixed;
+    bottom: 2%;
+    left: 470px;
+}

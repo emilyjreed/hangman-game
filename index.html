@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman!</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="got icon" href="assets/images/GOTfavicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+</head>
+
+<body>
+    <div id="image">
+    <img src="assets/images/Game-of-Thrones-Iron-throne.png" alt="GOT" />
+    </div>
+    <div class="container">
+        <img id="title-image" src="https://fontmeme.com/permalink/180313/a9105eebd1dd555f5261283b54c5373b.png" alt="Hangman" />
+        <img id="got-image" src="https://fontmeme.com/permalink/180313/de4f10efee9e62946d85076a534dd019.png" alt="GOT" />
+        <div class="row">
+            <div class="col-md-6 gameplay-column">
+                <img id="youwin" src="https://fontmeme.com/permalink/180313/6c293be3fc0c94629494c3eaa04c6ae9.png" alt="Winning Image" />
+                <img id="youdie" src="https://fontmeme.com/permalink/180313/0088e764d8a2057967d849c1d9d61db4.png" alt="Game Over Image" />
+                <h2 id="pressKeyTryAgain">Press Any Key to Try Again!</h2>
+            </div>
+            <div class="col-md-6 gameplay-column">
+                <h2>Press Any Key to Get Started!</h2>
+                <h4>Wins</h4>
+                <h5 id="winTotal"></h5>
+                <h4>Current Word</h4>
+                <h3 id="currentWord"></h3>
+                <h4>Guesses Remaining</h4>
+                <h6 id="guessesRemaining"></h6>
+                <h4>Letters Guessed</h4>
+                <h3 id="lettersGuessed"></h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img id="footer-image" src="https://fontmeme.com/permalink/180313/28c17070f3cd9463bacc5dafc91e06ba.png" alt="footer" />
+        
+    </footer>
+    <!-- <script>
+        resetGame();
+        updateDisplay();
+    </script> -->
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
